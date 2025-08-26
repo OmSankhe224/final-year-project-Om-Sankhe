@@ -48,12 +48,13 @@ This project presents a **machine learning and deep learning-based solution** th
 
 ## 🤖 Machine Learning Models
 
-Implemented and compared:
+Models implemented:
 - Logistic Regression
 - Support Vector Machine (SVM)
-- Random Forest Classifier
+- Random Forest
+- XGBoost
 - Custom Neural Network (DNN)
-- 1D Convolutional Neural Network (CNN)
+- GRU & CNN
 
 All models were trained using the same preprocessed data.
 
@@ -91,13 +92,16 @@ All models evaluated using:
 
 ## 📈 Results Snapshot
 
-| Model                 | Accuracy | ROC-AUC |
-|----------------------|----------|---------|
-| Logistic Regression  | 94%      | 0.94    |
-| SVM                  | 96%      | 0.96    |
-| Random Forest        | 96%      | 0.96    |
-| Custom Neural Network| 98%      | 0.98    |
-| Tuned CNN (1D Conv)  | **98.5%**| **0.99**|
+## 📊 Results Snapshot
+| Model                | Accuracy | F1-score (Hypothyroid) |
+|----------------------|----------|-------------------------|
+| Logistic Regression  | 94%      | 0.72                   |
+| SVM                  | 96%      | 0.71                   |
+| Random Forest        | 96%      | 0.92                   |
+| Neural Network (DNN) | 98%      | 0.81                   |
+| GRU                  | 98%      | 0.78                   |
+| CNN                  | 96%      | 0.53                   |
+| **XGBoost (SMOTE)**  | **99%**  | **0.94**               |
 
 ---
 
@@ -115,7 +119,7 @@ All models evaluated using:
 - Scikit-learn
 - TensorFlow & Keras
 - Imbalanced-learn (optional SMOTE)
-- XGBoost, CatBoost (optional)
+- XGBoost
 - Google Colab
 
 ---
