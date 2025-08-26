@@ -90,18 +90,21 @@ All models evaluated using:
 
 ---
 
-## 📈 Results Snapshot
+# 📈 Results Snapshot
 
-## 📊 Results Snapshot
-| Model                | Accuracy | F1-score (Hypothyroid) |
-|----------------------|----------|-------------------------|
-| Logistic Regression  | 94%      | 0.72                   |
-| SVM                  | 96%      | 0.71                   |
-| Random Forest        | 96%      | 0.92                   |
-| Neural Network (DNN) | 98%      | 0.81                   |
-| GRU                  | 98%      | 0.78                   |
-| CNN                  | 96%      | 0.53                   |
-| **XGBoost (SMOTE)**  | **99%**  | **0.94**               |
+## 📊 Comprehensive Model Comparison
+
+| Model                    | Accuracy | Precision | Recall | F1-Score | AUC-ROC |
+|---------------------------|----------|-----------|--------|----------|---------|
+| **XGBoost (SMOTE)**       | **0.9953** | **0.9355** | **0.9667** | **0.9508** | **0.9967** |
+| Random Forest             | 0.9937   | 0.9333    | 0.9333 | 0.9333   | 0.9977  |
+| Neural Network (RMSPROP)  | 0.9889   | 0.8966    | 0.8667 | 0.8814   | 0.9768  |
+| CNN                       | 0.9842   | 0.8333    | 0.8333 | 0.8333   | 0.9956  |
+| Decision Tree (SMOTE)     | 0.9842   | 0.8125    | 0.8667 | 0.8387   | 0.9284  |
+| GRU                       | 0.9842   | 0.7778    | 0.9333 | 0.8485   | 0.9794  |
+| Logistic Regression       | 0.9826   | 0.8519    | 0.7667 | 0.8070   | 0.9945  |
+| SVM (GridSearch)          | 0.9763   | 0.7586    | 0.7333 | 0.7458   | 0.9861  |
+| Neural Network (ADAM)     | 0.9747   | 0.7188    | 0.7667 | 0.7419   | 0.9718  |
 
 ---
 
