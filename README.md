@@ -84,9 +84,11 @@ All models evaluated using:
 - **Confusion Matrix**
 - **ROC-AUC Curve**
 
-📌 **CNN Model Accuracy:** ~98%  
-📌 **Random Forest & SVM:** ~96%  
-📌 **Logistic Regression:** ~94%
+📌 CNN Model Accuracy: 98.4%  
+📌 Random Forest Accuracy: 99.4%  
+📌 SVM (GridSearch) Accuracy: 97.6%  
+📌 Logistic Regression Accuracy: 98.3%  
+
 
 ---
 
