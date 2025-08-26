@@ -89,7 +89,7 @@ All models evaluated using:
 📌 SVM (GridSearch) Accuracy: 97.6%  
 📌 Logistic Regression Accuracy: 98.3%  
 
-
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ---
 
 # 📈 Results Snapshot
